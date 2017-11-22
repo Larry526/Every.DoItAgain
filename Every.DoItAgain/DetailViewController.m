@@ -29,7 +29,8 @@
 - (void)configureView {
     // Update the user interface for the detail item.
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
+        self.detailDescriptionLabel.text = [self.detailItem valueForKey:@"todoDescription"];
+        self.priorityLabel.text = [NSString stringWithFormat:@"%@",[self.detailItem valueForKey:@"priority"]];
     }
 }
 

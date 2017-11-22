@@ -15,6 +15,7 @@
 		05028B001FC5E59100B34B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05028AFF1FC5E59100B34B0F /* Assets.xcassets */; };
 		05028B031FC5E59100B34B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05028B011FC5E59100B34B0F /* LaunchScreen.storyboard */; };
 		05028B061FC5E59100B34B0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05028B051FC5E59100B34B0F /* main.m */; };
+		05FDE0531FC5F924001381AB /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FDE0521FC5F924001381AB /* AddTaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		05028B021FC5E59100B34B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05028B041FC5E59100B34B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05028B051FC5E59100B34B0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05FDE0511FC5F924001381AB /* AddTaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		05FDE0521FC5F924001381AB /* AddTaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 			children = (
 				05028AF01FC5E59100B34B0F /* AppDelegate.h */,
 				05028AF11FC5E59100B34B0F /* AppDelegate.m */,
+				05FDE0511FC5F924001381AB /* AddTaskViewController.h */,
+				05FDE0521FC5F924001381AB /* AddTaskViewController.m */,
 				05028AF61FC5E59100B34B0F /* MasterViewController.h */,
 				05028AF71FC5E59100B34B0F /* MasterViewController.m */,
 				05028AF91FC5E59100B34B0F /* DetailViewController.h */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05028B061FC5E59100B34B0F /* main.m in Sources */,
+				05FDE0531FC5F924001381AB /* AddTaskViewController.m in Sources */,
 				05028AF51FC5E59100B34B0F /* Every_DoItAgain.xcdatamodeld in Sources */,
 				05028AF81FC5E59100B34B0F /* MasterViewController.m in Sources */,
 				05028AF21FC5E59100B34B0F /* AppDelegate.m in Sources */,
@@ -294,6 +300,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LL.Every-DoItAgain";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -308,6 +315,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LL.Every-DoItAgain";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
